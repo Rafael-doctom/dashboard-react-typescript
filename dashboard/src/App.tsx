@@ -1,10 +1,15 @@
 import React from 'react';
+import Dashboard from './pages/Dashboard';
+import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
-   <>
-    testesss
-   </>
+    <>
+      <GlobalStyles />
+      <Dashboard />
+    </>
+
+
   );
 }
 
