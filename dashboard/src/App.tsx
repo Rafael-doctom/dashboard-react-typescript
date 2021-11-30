@@ -2,7 +2,7 @@ import React from 'react';
 import Dashboard from './pages/Dashboard';
 import GlobalStyles from './styles/GlobalStyles';
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
       <GlobalStyles />
